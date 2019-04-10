@@ -1,0 +1,13 @@
+
+// java --source 9 example-jep-330          KO
+// java --source 10 example-jep-330         OK
+
+//ran as part of an unnamed module with the option --add-modules=ALL-DEFAULT
+
+public class Temp5 {
+
+    public static void main(String[] args) {
+        var msg = "hello temp5";
+        System.out.println(msg);
+    }
+}
